@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "calc-button": "/components/calc-button/calc-button"
+  },
+  "enablePullDownRefresh": false
+}

@@ -1,0 +1,18 @@
+.btn-container {
+  height: 150rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 65rpx;
+}
+.normal-size {
+  width: 150rpx;
+}
+.large-size {
+  width: 320rpx;
+  border-radius: 80rpx;
+}
+
+/* .btn-hover{
+  opacity: 0.1;
+} */

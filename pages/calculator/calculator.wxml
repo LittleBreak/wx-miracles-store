@@ -1,0 +1,35 @@
+<!-- index.wxml -->
+<view class="monitor-container">{{result}}</view>
+<view class="calculator-btn-container">
+  <view class="row-btn-container">
+    <calc-button background="#A6A6A6" color="#000" bind:calctap="onCalcTap" id="{{btnId.clear}}">AC</calc-button>
+    <calc-button background="#A6A6A6" color="#000" bind:calctap="onCalcTap" id="{{btnId.opposite}}">
+      +/-
+    </calc-button>
+    <calc-button background="#A6A6A6" color="#000" bind:calctap="onCalcTap" id="{{btnId.percent}}">%</calc-button>
+    <calc-button background="#FF9501" bind:calctap="onCalcTap" id="{{btnId.divide}}">÷</calc-button>
+  </view>
+  <view class="row-btn-container">
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['7']}}">7</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['8']}}">8</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['9']}}">9</calc-button>
+    <calc-button background="#FF9501" bind:calctap="onCalcTap" id="{{btnId.multiply}}">×</calc-button>
+  </view>
+  <view class="row-btn-container">
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['4']}}">4</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['5']}}">5</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['6']}}">6</calc-button>
+    <calc-button background="#FF9501" bind:calctap="onCalcTap" id="{{btnId.minus}}">-</calc-button>
+  </view>
+  <view class="row-btn-container">
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['1']}}">1</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['2']}}">2</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId['3']}}">3</calc-button>
+    <calc-button background="#FF9501" bind:calctap="onCalcTap" id="{{btnId.plus}}">+</calc-button>
+  </view>
+  <view class="row-btn-container">
+    <calc-button size="large" bind:calctap="onCalcTap" id="{{btnId['0']}}">0</calc-button>
+    <calc-button bind:calctap="onCalcTap" id="{{btnId.dot}}">.</calc-button>
+    <calc-button background="#FF9501" bind:calctap="onCalcTap" id="{{btnId.equal}}">=</calc-button>
+  </view>
+</view>
